@@ -1,0 +1,81 @@
+html,
+body {
+  height: 100vh;
+}
+
+#plus {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 15%;
+  right: 5%;
+}
+
+li {
+  list-style-type: none;
+  text-align: left;
+  padding: 10px 0px 0px 7%;
+  position: relative;
+}
+
+.crossed {
+  color: lightgray;
+  text-decoration: line-through;
+}
+
+body {
+  background: url(desk.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  color: white;
+  background-color: steelblue;
+  margin: 0;
+  position: relative;
+  text-align: left;
+  padding-left: 7%;
+}
+#input {
+  width: 100%;
+  border: none;
+  background-color: rgba(240, 232, 232, 0.685);
+  color: rgb(30, 112, 179);
+  height: 30px;
+  text-align: left;
+  padding-left: 7%;
+}
+#input:focus {
+  outline: none;
+}
+
+#flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100vw;
+}
+
+#main-body {
+  width: 40vw;
+  text-align: center;
+  background-color: snow;
+}
+
+.delete {
+  color: tomato;
+  padding: 0 10px 0 10px;
+  position: relative;
+  left: 40%;
+  bottom: 15px;
+}
+
+.hidden {
+  visibility: hidden;
+}
