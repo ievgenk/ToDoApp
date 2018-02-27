@@ -79,3 +79,11 @@ h1 {
 .hidden {
   visibility: hidden;
 }
+
+@media screen and (max-width: 600px) {
+  #main-body {
+    width: 70vw;
+    text-align: center;
+    background-color: snow;
+  }
+}
