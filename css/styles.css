@@ -91,6 +91,9 @@ h1 {
     height: 100vh;
     font-size: 14px;
   }
+  .delete {
+    bottom: 14px;
+  }
   #main-body {
     width: 70vw;
     text-align: center;
